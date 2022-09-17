@@ -1,0 +1,118 @@
+:root {
+    --textocentralizado: "center";
+    --bordacustomizada: 4px solid;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header {
+    background-color: rgb(43, 41, 41);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 240px;
+}
+
+section#titulo {
+    font-style: italic;
+    text-align: center;
+}
+
+h1#nome {
+    font-size: 40px;
+    color: white;
+}
+
+h2#função {
+    font-size: 30px;
+    color: white;
+}
+
+h4#reconhecimento {
+    color: white;
+}
+
+footer {
+    background-color: black;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border: var(--bordacustomizada);
+    border-radius: 50%;
+    border-color: rgb(255, 153, 0);
+}
+
+nav {
+    background-color: grey;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 40px;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li:hover {
+    background-color: rgb(255, 153, 0);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: 'Lobster', cursive;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    text-align: var(--textocentralizado);
+    margin: 6px;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    margin-top: 45px;
+}
+
+ul#curso-list {
+    margin: 6px;
+}
+
+#curso {
+    margin: 6px;
+}
+
+p{
+    font-family: 'Lobster', cursive;
+    margin: 6px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
